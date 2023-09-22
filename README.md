@@ -17,6 +17,11 @@ To include the plugin, add the following line in between the `<world> </world>` 
     <init_robot_y>0</init_robot_y>          <!-- y coordinate in meters, optional, default 0 -->
 </plugin>
 ```
+To spawn the world, launch the 'gazebo_ros empth_world.launch world_name:=/paht/your.world'
+
+```
+roslaunch gazebo_ros empty_world.launch world_name:=/path/your.world
+```
 
 To generate the map, call the `/gazebo_2Dmap_plugin/generate_map` ros service:
 
